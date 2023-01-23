@@ -26,7 +26,7 @@ The objective of the puzzle is to move the entire stack to another rod, obeying 
 
 ## Pesudo Code
 
-(```
+```
 void hanoi(int n, char source, char intermediate, char destination) {
     if (n == 1) {
         move disk from source to destination
@@ -36,4 +36,3 @@ void hanoi(int n, char source, char intermediate, char destination) {
         hanoi(n-1, intermediate, source, destination)
     }
 }
-```)
